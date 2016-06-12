@@ -1,0 +1,34 @@
+{
+  "name": "fidor-kontoauszug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin" : {
+    "fidor-kontoauszug" : "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fidor",
+    "kontoauszug",
+    "kontoauszüge",
+    "bank statement",
+    "rechnung",
+    "pdf",
+    "statement",
+    "invoice",
+    "payment",
+    "tax"
+  ],
+  "dependencies": {
+    "nightmare": "~2.3.4",
+    "nightmare-download-manager": "~0.2.0"
+  },
+  "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/rmoriz/fidor-kontoauszug"
+  },
+  "author": "Roland Moriz",
+  "license": "MIT"
+}
